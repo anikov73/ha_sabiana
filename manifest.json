@@ -1,0 +1,12 @@
+{
+  "domain": "sabiana",
+  "name": "Sabiana Climate",
+  "codeowners": ["@nikovaleksandar"],
+  "config_flow": true,
+  "dependencies": ["network", "sensor", "switch"],
+  "documentation": "https://www.home-assistant.io/integrations/sabiana",
+  "iot_class": "cloud_polling",
+  "loggers": ["sabianaclimate"],
+  "requirements": ["bidict==0.22.1", "python-engineio==4.4.1", "asyncio==3.4.3", "voluptuous==0.13.1", "python-socketio==5.8.0"],
+  "version": "1.0.0"
+}
